@@ -1,0 +1,63 @@
+.applicant-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.applicant-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px 22px;
+  border: 1px solid #ececec;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.25s ease;
+}
+
+.applicant-card:hover {
+  border-color: #ff9800;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.applicant-info h6 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.applicant-info p {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.applicant-meta {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 4px;
+}
+
+.applicant-actions {
+  text-align: right;
+}
+
+.resume-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+}
+
+.resume-btn:hover {
+  background: #fb8c00;
+}
+
+.no-applicants {
+  text-align: center;
+  padding: 60px 20px;
+  color: #777;
+}
+

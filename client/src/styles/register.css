@@ -1,0 +1,85 @@
+.register-wrapper {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.register-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 32px;
+  border: 1px solid #ececec;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.1);
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.register-header h3 {
+  font-weight: 800;
+}
+
+.register-header p {
+  color: #666;
+  margin-top: 6px;
+}
+
+/* Role selector */
+.role-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.role-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  transition: all 0.2s ease;
+}
+
+.role-btn.active {
+  background: #ff9800;
+  color: #fff;
+  border-color: #ff9800;
+}
+
+.role-btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Inputs */
+.register-card input {
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+/* Submit */
+.register-submit {
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #ff9800, #fb8c00);
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.register-submit:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+/* Footer */
+.register-footer {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 0.9rem;
+}
+

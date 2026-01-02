@@ -1,0 +1,17 @@
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.status-applied {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.status-reviewed {
+  background: #e8f5e9;
+  color: #2e7d32;
+}

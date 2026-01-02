@@ -1,0 +1,79 @@
+/* Search */
+.job-search {
+  margin-bottom: 30px;
+}
+
+/* Grid layout */
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 22px;
+}
+
+/* Card */
+.job-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  transition: all 0.25s ease;
+  height: 100%;
+}
+
+.job-card:hover {
+  border-color: #ff9800;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.job-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+/* Meta */
+.job-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.job-desc {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Footer */
+.job-footer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button */
+.job-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: #ff9800;
+  color: white;
+  border: none;
+}
+
+.job-btn:hover {
+  background: #fb8c00;
+}
+
+/* Empty */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #777;
+}

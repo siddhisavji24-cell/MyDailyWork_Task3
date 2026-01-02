@@ -1,0 +1,58 @@
+.postjob-wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.postjob-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  border: 1px solid #ececec;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
+}
+
+.postjob-header {
+  margin-bottom: 25px;
+}
+
+.postjob-header h3 {
+  font-weight: 800;
+}
+
+.postjob-header p {
+  color: #666;
+  margin-top: 6px;
+}
+
+.postjob-card label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.postjob-card input,
+.postjob-card textarea {
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.postjob-card textarea {
+  resize: none;
+}
+
+.postjob-submit {
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #ff9800, #fb8c00);
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.postjob-submit:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+

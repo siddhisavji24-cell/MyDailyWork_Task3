@@ -1,0 +1,59 @@
+/* Navbar background */
+.navbar-custom {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  padding: 14px 32px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* Brand */
+.navbar-brand-custom {
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #ffffff !important;
+}
+
+/* Nav buttons */
+.nav-btn {
+  margin-left: 10px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Default outline button */
+.nav-btn-outline {
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.nav-btn-outline:hover {
+  background: #ffffff;
+  color: #203a43;
+}
+
+/* Highlight (Post Job) */
+.nav-btn-highlight {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+  color: #000;
+  border: none;
+}
+
+.nav-btn-highlight:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 215, 0, 0.6);
+}
+
+/* Danger (Logout) */
+.nav-btn-danger {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+  border: none;
+}
+
+.nav-btn-danger:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+

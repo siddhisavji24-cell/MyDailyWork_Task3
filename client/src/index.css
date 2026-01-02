@@ -1,0 +1,105 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #f6f7fb, #eef1f7);
+  color: #1f2937;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: rgba(15, 23, 42, 0.85) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* ===== HERO ===== */
+.hero-section {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  padding: 90px 0 110px;
+  border-radius: 0 0 60px 60px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  letter-spacing: -0.5px;
+}
+
+.hero-section p {
+  max-width: 600px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+/* ===== SEARCH ===== */
+.hero-section input {
+  border-radius: 14px;
+  padding: 16px 18px;
+  border: none;
+}
+
+/* ===== JOB CARD ===== */
+.job-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+.job-card h5 {
+  font-weight: 600;
+}
+
+/* ===== BUTTON ===== */
+.btn-primary {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border: none;
+  border-radius: 12px;
+  padding: 10px 18px;
+}
+
+.btn-warning {
+  border-radius: 12px;
+}
+
+/* ===== AUTH ===== */
+.auth-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 22px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.auth-card h3 {
+  font-weight: 700;
+}
+
+.auth-card input {
+  height: 50px;
+  border-radius: 14px;
+}
+
+.auth-card button {
+  height: 50px;
+  border-radius: 14px;
+}

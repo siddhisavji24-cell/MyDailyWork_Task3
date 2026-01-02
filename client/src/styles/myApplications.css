@@ -1,0 +1,54 @@
+.myapps-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.myapps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.myapp-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid #ececec;
+  transition: all 0.25s ease;
+}
+
+.myapp-card:hover {
+  border-color: #ff9800;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.myapp-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.myapp-company {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.myapp-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myapp-date {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.myapps-empty {
+  text-align: center;
+  padding: 70px 20px;
+  color: #777;
+}
+
